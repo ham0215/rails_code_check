@@ -20,6 +20,9 @@ docker-compose up --build -d
 docker-compose exec web bundle exec rake db:create
 docker-compose exec web bundle exec rake db:migrate
 
-# access
-http://localhost:3000/
+# users#index
+http://localhost:3000/users
+
+# execute a batch of refresh_token
+docker-compose exec web bundle exec rails runner RefreshToken.new.exec
 ```
