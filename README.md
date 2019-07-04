@@ -2,16 +2,16 @@
 
 コードチェック練習用
 
-* Ruby version
+## Ruby version
 2.6.3
 
-* Rails version
+## Rails version
 6.0.0.rc1
 
-* Mysql version
+## Mysql version
 8.1.16
 
-* How to run the development
+## How to run the development
 ```
 # docker build and start server in background
 docker-compose up --build -d
