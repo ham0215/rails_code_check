@@ -5,8 +5,7 @@ mysql> desc users;
 | Field      | Type                | Null | Key | Default | Extra          |
 +------------+---------------------+------+-----+---------+----------------+
 | id         | bigint(20)          | NO   | PRI | NULL    | auto_increment |
-| name       | varchar(100)        | YES  |     | NULL    |                |
-| token      | varchar(1000)       | YES  |     | NULL    |                |
+| name       | varchar(100)        | NO   |     | NULL    |                |
 | status     | tinyint(3) unsigned | NO   | MUL | 0       |                |
 | created_at | datetime(6)         | NO   |     | NULL    |                |
 | updated_at | datetime(6)         | NO   |     | NULL    |                |
