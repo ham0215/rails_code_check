@@ -3,10 +3,10 @@
 コードチェック練習用
 
 ## Ruby version
-2.6.3
+2.6.5
 
 ## Rails version
-6.0.0.rc1
+6.0.0
 
 ## Mysql version
 8.1.16
